@@ -37,5 +37,5 @@ Below is a summary of the requested data based on the election outcomes
 
 #### Total votes cast : 369711
 
-### The 
+### The  
 - By counting the number of total vte
