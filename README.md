@@ -24,7 +24,7 @@ As part of the analysis the following will be calculated and determined :
 
 ## Election Audit Results
 
-#### Summary Results
+### Summary Results
 
 Below is a summary of the requested data based of the processing script on the the election data file supplied.
 
@@ -33,32 +33,29 @@ Below is a summary of the requested data based of the processing script on the t
 ##### TOTAL NUMBER OF VOTES
 - Total number of votes cast : 369,711
 
-##### ELECTION WINNER
+###### ELECTION WINNER
 
-- Winner: Diana DeGette
-- Winning Vote Count: 272,892
-- Winning Percentage: 73.8%
+  WINNER | WINNING VOTE COUNT|WINNING PERCENTAGE|
+  ------ | :---------:|:----------:|
+  __Diana DeGette__   |272,892     |      73.8%  |
 
-#### BY COUNTY
-- TOTAL NUMBER OF VOTES
-  - Jefferson : 38,885
-  - Denver    : 306,055
-  - Arapahoe  : 24,801
-- PERCENTAGE OF TOTAL VOTES
-  - Jefferson : 10.5%
-  - Denver    : 82.8%
-  - Arapahoe  : 6.7%
-- COUNTY WITH LARGEST NUMBER OF VOTES
-  - Denver with 306,055 
 
-#### BY CANDIDATE
+###### BY COUNTY
 
-- TOTAL NUMBER OF VOTES
-  - Charles Casper Stockham : 85,213
-  - Diana DeGette    : 272,892
-  - Raymon Anthony Doane  : 11,606
-- PERCENTAGE OF TOTAL VOTES
-  - Charles Casper Stockham : 23.0%
-  - Diana DeGette    : 73.8%
-  - Raymon Anthony Doane  : 3.1%
+  COUNTY | NUMBER OF VOTES|PERCENTAGE OF VOTES|
+  ------ | :---------:|:----------:|
+  __Jefferson__   |38,885     |      10.5%   |
+  __Denver__     |306,055     |      82.8%            |
+  __Arapahoe__| 24,801 | 6.7% |
+  
+  - __Denver__ had the largest number of votes with 306,055 votes cast.
+  
+###### BY CANDIDATE
+
+  CANDIDATE | NUMBER OF VOTES|PERCENTAGE OF VOTES|
+  ------ | :---------:|:----------:|
+  __Charles Casper Stockham__   |85,213    |      23.0% |
+  __Diana DeGette__     |272,892    |      73.8%           |
+  __Raymon Anthony Doane__| 11,606 | 3.1% |
+
 
