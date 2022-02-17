@@ -21,3 +21,10 @@ As part of the analysis the following will be calculated and determined :
 - Voter turnout for each county
 - Percentage of votes from each county out of the total count
 - The county with the highest turnout
+
+# Election Audit Results
+
+## Total votes cast
+
+### The 
+- By counting the number of total vte
