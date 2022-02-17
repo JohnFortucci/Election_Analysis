@@ -22,9 +22,16 @@ As part of the analysis the following will be calculated and determined :
 - Percentage of votes from each county out of the total count
 - The county with the highest turnout
 
-# Election Audit Results
+## Election Audit Results
 
-## Total votes cast
+#### Summary Results
+
+Below is a summary of the requested data based on the election outcomes
+- Total number of votes cast                              : 369711
+- Total number of votes and percentage of votes by county : 
+### Total votes cast
+
+#### Total votes cast : 369711
 
 ### The 
 - By counting the number of total vte
