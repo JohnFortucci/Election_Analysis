@@ -27,8 +27,12 @@ As part of the analysis the following will be calculated and determined :
 #### Summary Results
 
 Below is a summary of the requested data based on the election outcomes
-- Total number of votes cast                              : 369711
-- Total number of votes and percentage of votes by county : 
+
+- Total number of votes cast : 369,711
+- Total number of votes by county : 
+- Jefferson : 38,885
+- Denver    : 306,055
+- Arapahoe  : 24,801
 ### Total votes cast
 
 #### Total votes cast : 369711
