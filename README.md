@@ -32,6 +32,8 @@ The image below represent the terminal output when the script is processed
 
 ![Terminal Output Screen Capture](/Resources/Terminal_Output_Election_Analysis.png)
 
+[a relative link](/analysis/election_analysis.txt)
+
 #### OVERALL ELECTION RESULTS
 
   - __TOTAL NUMBER OF VOTES__ (Calculation : for every record : __total_votes = total_votes + 1__)
