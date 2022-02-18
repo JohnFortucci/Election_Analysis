@@ -38,33 +38,29 @@ Below is a summary of the requested data based of the processing script on the t
 
 #### OVERALL ELECTION RESULTS
 
-  - TOTAL NUMBER OF VOTES
+  - TOTAL NUMBER OF VOTES (Calculation : for every record : __total_votes = total_votes + 1__)
     - Total number of votes cast : 369,711
   - BREAKDOWN BY COUNTY
-    - Total number of votes
+    - Total number of votes (Calcuation : for every unique county : __number_of_votes = number_of_votes + 1__)
       - __Jefferson__ number of votes __38,885__
       - __Denver__ number of votes __306,055__
       - __Arapahoe__ number of votes __24,801__
-    - Percentage of votes
+    - Percentage of votes (Calcuation : for every unique county : __county_percentage = float(number_of_votes) / float(total_votes) * 100__)
       - __Jefferson__ percentage of votes __10.5%__
       - __Denver__ percentage of votes __82.8%__
       - __Arapahoe__ percentage of votes __6.7%__
-    - __Denver__ was the county with the largest number of votes
+    - __Denver__ was the county with the largest number of votes (This is determine by looping through the __number_of_votes__ for each county and finding the largest count)
   - BREAKDOWN BY CANDIDATE
-    - Total number of votes
+    - Total number of votes (Calcuation : for every unique candidate : __number_of_votes = number_of_votes + 1__)
       - __Charles Casper Stockham__ number of votes __85,213__
       - __Diana DeGette__ number of votes __272,892__
       - __Raymon Anthony Doane__ number of votes __11,606__
-    - Percentage of votes
+    - Percentage of votes (Calcuation : for every unique candidate : __candidate_percentage = float(number_of_votes) / float(total_votes) * 100__)
       - __Charles Casper Stockham__ percentage of votes __23.0%__
       - __Diana DeGette__ percentage of votes __73.8%__
       - __Raymon Anthony Doane__ percentage of votes __3.1%__
-- ELECTION WINNER
+- ELECTION WINNER (Winner is determine by looping through the __number_of_votes__ for each candidate and finding the largest count)
     - Winner : Diana DeGette
     - Winning vote count : 272,892 
     - Winning vote percentage : 73.8%
-
-#### KEY CALCULATIONS AND LOGIC 
-
-Below is the high level logic and calculations used to generate the above results
 
