@@ -57,7 +57,7 @@ Below is a summary of the requested data based of the processing script on the t
       - __Raymon Anthony Doane__ number of votes __11,606__
     - Percentage of votes
       - __Charles Casper Stockham__ percentage of votes __23.0%__
-      - __Diana DeGette__ percentage of votes __73.8% __
+      - __Diana DeGette__ percentage of votes __73.8%__
       - __Raymon Anthony Doane__ percentage of votes __3.1%__
 - ELECTION WINNER
     - Winner : Diana DeGette
