@@ -28,6 +28,10 @@ As part of the analysis the following will be calculated and determined :
 
 Below is a summary of the requested data based of the processing script on the the election data file supplied.
 
+The image below represent the terminal output when the script is processed
+
+![Clear Worksheet Compare Image](/resources/Terminal_Output_Election Analysis.PNG)
+
 #### OVERALL ELECTION RESULTS
 
   - __TOTAL NUMBER OF VOTES__ (Calculation : for every record : __total_votes = total_votes + 1__)
