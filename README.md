@@ -75,7 +75,41 @@ As we have demonstrated the advatages of have a computer solution to tabulate th
 ### Enchance the results processing to process more than one item being voted on.
 
 Typically on election day there are multiple items being voted on examples of these can be , but not limited to below :- 
-- Federal - Presidential
+- Federal - Presidential.
 - Federal - Senate and Congressional offices.
-- State   - State senate offices
-- Country - Commisioner
+- State   - Election for state offices.
+- State   - State resolutions.
+- County  - Commisioner positions.
+
+It is assumed that for the different categories of the type of vote (Federal , State , County) will have different requirements.
+
+####Federal
+- A seperate summary file would need to be generated for only the federal votes , allowing this file to be sent to a federal election committee with the election results. The actual format of the file will be defined if this proposal moves forward.
+
+####State
+- A sperate file would be generated for the state results. The actual format of the file will be defined if this proposal moves forward.
+
+####County
+- A seperate file would be generated for each county containing the results of their county election results. The actual format of the file will be defined if this proposal moves forward.
+
+#####Vote counting
+- Federal and State categories would be calculated by votes state wide for the specific resolution.
+- State resolution may not be a candidate name , it may just be a yes know.
+- County categories would only be counted in those particular counties for the specific resolution.
+
+#####Changes to the input file
+The current input file has three columns.
+Ballot ID , County , Candidate
+
+A new input file will need to be designed the actual format of the file will be defined if this proposal moves forward, but would be similar to the example below. 
+
+Ballot ID , Category , Resolution , County , Voter selection
+
+Below is a sample of the input file is below
+
+Ballot ID | Category | Resolution | County | Voter selection|
+------|--------|--------|--------|--------|
+1234|Federal|President / Vice Precident|Jefferson|Candidate 1|
+1234|State|State AG|Jefferson|Candidate 2|
+1234|State|Implement a state tax|Jefferson|Yes|
+1234|County|County commisioner|Jefferson|Candidate 3|
