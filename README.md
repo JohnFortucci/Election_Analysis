@@ -28,11 +28,11 @@ As part of the analysis the following will be calculated and determined :
 
 Below is a summary of the requested data based of the processing script on the the election data file supplied.
 
-The image below represent the terminal output when the script is processed
+The image below represent the terminal output when the script is processed.
 
 ![Terminal Output Screen Capture](/Resources/Terminal_Output_Election_Analysis.png)
 
-The text file that is created when the script is ran can be viewed [using this link](/analysis/election_analysis.txt)
+The text file that is created when the script is ran can be viewed [using this link.](/analysis/election_analysis.txt)
 
 #### OVERALL ELECTION RESULTS
 
