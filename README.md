@@ -64,3 +64,18 @@ Below is a summary of the requested data based of the processing script on the t
     - Winning vote count : 272,892 
     - Winning vote percentage : 73.8%
 
+# Election Audit Summary
+
+## Introduction
+
+As we have demonstrated the advatages of have a computer solution to tabulate the results of election and producing anaysis of utimate winner , along withe voting total and percentages by counties. The solution that has been developed support the processing and analysis of a single item being voted on It is felt that we could develop this solution further to better enhance the voting processing and therefore reduce the amount of effort by the state election commission.
+
+## Proposed enhancement
+
+### Enchance the results processing to process more than one item being voted on.
+
+Typically on election day there are multiple items being voted on examples of these can be , but not limited to below :- 
+- Federal - Presidential
+- Federal - Senate and Congressional offices.
+- State   - State senate offices
+- Country - Commisioner
