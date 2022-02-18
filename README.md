@@ -1,16 +1,8 @@
 # Election Analysis
 
-The action of every &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; agent <br />
-  into the world <br />
-starts <br />
-  from their physical selves. <br />
-
-
-
-
 ## Overview
 
-The purpose of this election audit analysis , was to develop a script that would tabulate the election results from and input CSV files (CSV - Comma Separated Values file) of a state wide election. 
+The purpose of this election audit analysis , was to develop a script that would tabulate the election results from and input CSV files (CSV - Comma Separated Values file) for a state wide election. 
 
 The criteria for tabulating the results are :- 
 - Single vote option (1 congressional seat)
@@ -83,21 +75,21 @@ Typically on election day there are multiple items being voted on examples of th
 
 It is assumed that for the different categories of the type of vote (Federal , State , County) will have different requirements.
 
-####Federal
+##### Federal
 - A seperate summary file would need to be generated for only the federal votes , allowing this file to be sent to a federal election committee with the election results. The actual format of the file will be defined if this proposal moves forward.
 
-####State
+##### State
 - A sperate file would be generated for the state results. The actual format of the file will be defined if this proposal moves forward.
 
-####County
+##### County
 - A seperate file would be generated for each county containing the results of their county election results. The actual format of the file will be defined if this proposal moves forward.
 
-#####Vote counting
+##### Vote counting
 - Federal and State categories would be calculated by votes state wide for the specific resolution.
-- State resolution may not be a candidate name , it may just be a yes know.
+- State resolution may not be a candidate name , it may just be a yes or no.
 - County categories would only be counted in those particular counties for the specific resolution.
 
-#####Changes to the input file
+##### Changes to the input file
 The current input file has three columns.
 Ballot ID , County , Candidate
 
@@ -112,4 +104,32 @@ Ballot ID | Category | Resolution | County | Voter selection|
 1234|Federal|President / Vice Precident|Jefferson|Candidate 1|
 1234|State|State AG|Jefferson|Candidate 2|
 1234|State|Implement a state tax|Jefferson|Yes|
-1234|County|County commisioner|Jefferson|Candidate 3|
+1234|County|Jefferson County commisioner|Jefferson|Candidate 3|
+5678|Federal|President / Vice Precident|Jefferson|Candidate 4|
+5678|State|State AG|Denver|Candidate 5|
+5678|State|Implement a state tax|Denver|No|
+
+The above input file would generate the following
+
+Category | Resolution | Voter selection |Count|
+--------|--------|--------|--------|
+Federal|President / Vice Precident|Candidate 1|1|
+Federal|President / Vice Precident|Candidate 4|1|
+State|State AG|Candidate 2|1|
+State|State AG|Candidate 5|1|
+State|Implement a state tax|Yes|1|
+State|Implement a state tax|No|1|
+County|Jefferson County commisioner|Candidate 3|1|
+
+##### Improved election data analysis
+
+With the above data , we can improve the analysis of the election date , some example of this could be
+
+- Total Ballots cast compared to Total votes in the Federal Presidential , election if the Total votes is less , this would indicate a percentage of voter are not interested in the federal presidential election
+- Total votes cast compared to specific state election resloution E.G. State tax , if the number of votes cast is significantly less might indicate that there is no overall mandate to move this resolution forward.
+
+The above are just example of potential analysis of the data , these would be fully defined if the enhancements are approved.
+
+#### CLOSING
+
+We have outlined above the proposed enhancements for a future phase of this election analysis funtionality , assuming we would get approval for this and that the election committee are satisfied and the proposed benefits are realized. The next logical evolution of this functionality would be to expand to local city elections , this would be further proposed apon a succesful completion and acceptance of the above phase.
