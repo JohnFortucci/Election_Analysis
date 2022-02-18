@@ -30,28 +30,28 @@ Below is a summary of the requested data based of the processing script on the t
 
 #### OVERALL ELECTION RESULTS
 
-  - TOTAL NUMBER OF VOTES (Calculation : for every record : __total_votes = total_votes + 1__)
+  - __TOTAL NUMBER OF VOTES__ (Calculation : for every record : __total_votes = total_votes + 1__)
     - Total number of votes cast : 369,711
-  - BREAKDOWN BY COUNTY
-    - Total number of votes (Calcuation : for every unique county : __number_of_votes = number_of_votes + 1__)
+  - __BREAKDOWN BY COUNTY__
+    - __Total number of votes__ (Calcuation : for every county : __number_of_votes = number_of_votes + 1__)
       - __Jefferson__ number of votes __38,885__
       - __Denver__ number of votes __306,055__
       - __Arapahoe__ number of votes __24,801__
-    - Percentage of votes (Calcuation : for every unique county : __county_percentage = float(number_of_votes) / float(total_votes) * 100__)
+    - __Percentage of votes__(Calcuation : for every county : __county_percentage = float(number_of_votes) / float(total_votes) * 100__)
       - __Jefferson__ percentage of votes __10.5%__
       - __Denver__ percentage of votes __82.8%__
       - __Arapahoe__ percentage of votes __6.7%__
     - __Denver__ was the county with the largest number of votes (This is determine by looping through the __number_of_votes__ for each county and finding the largest count)
-  - BREAKDOWN BY CANDIDATE
-    - Total number of votes (Calcuation : for every unique candidate : __number_of_votes = number_of_votes + 1__)
+  - __BREAKDOWN BY CANDIDATE__
+    - __Total number of votes__ (Calcuation : for every candidate : __number_of_votes = number_of_votes + 1__)
       - __Charles Casper Stockham__ number of votes __85,213__
       - __Diana DeGette__ number of votes __272,892__
       - __Raymon Anthony Doane__ number of votes __11,606__
-    - Percentage of votes (Calcuation : for every unique candidate : __candidate_percentage = float(number_of_votes) / float(total_votes) * 100__)
+    - __Percentage of votes__ (Calcuation : for every candidate : __candidate_percentage = float(number_of_votes) / float(total_votes) * 100__)
       - __Charles Casper Stockham__ percentage of votes __23.0%__
       - __Diana DeGette__ percentage of votes __73.8%__
       - __Raymon Anthony Doane__ percentage of votes __3.1%__
-- ELECTION WINNER (Winner is determine by looping through the __number_of_votes__ for each candidate and finding the largest count)
+- __ELECTION WINNER__ (Winner is determine by looping through the __number_of_votes__ for each candidate and finding the largest count)
     - Winner : Diana DeGette
     - Winning vote count : 272,892 
     - Winning vote percentage : 73.8%
@@ -60,7 +60,7 @@ Below is a summary of the requested data based of the processing script on the t
 
 ## Introduction
 
-As we have demonstrated the advatages of have a computer solution to tabulate the results of election and producing anaysis of utimate winner , along withe voting total and percentages by counties. The solution that has been developed support the processing and analysis of a single item being voted on It is felt that we could develop this solution further to better enhance the voting processing and therefore reduce the amount of effort by the state election commission.
+We have demonstrated the advatages of having a computer solution to tabulate the results of elections and producing anaysis of voter data and the utimate election winner , along withe voting total and percentages by counties. The solution that has been developed supports the processing and analysis of a single item being voted on it is felt that we could develop this solution further to better enhance the voting processing and therefore reduce the amount of effort by the state election commission.
 
 ## Proposed enhancement
 
@@ -123,7 +123,7 @@ County|Jefferson County commisioner|Candidate 3|1|
 
 ##### Improved election data analysis
 
-With the above data , we can improve the analysis of the election date , some example of this could be
+With the above data , we can improve the analysis of the election date , some examples of this could be :- 
 
 - Total Ballots cast compared to Total votes in the Federal Presidential , election if the Total votes is less , this would indicate a percentage of voter are not interested in the federal presidential election
 - Total votes cast compared to specific state election resloution E.G. State tax , if the number of votes cast is significantly less might indicate that there is no overall mandate to move this resolution forward.
