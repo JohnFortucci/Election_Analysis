@@ -30,7 +30,7 @@ Below is a summary of the requested data based of the processing script on the t
 
 The image below represent the terminal output when the script is processed
 
-![Clear Worksheet Compare Image](/resources/Terminal_Output_Election Analysis.png)
+![Terminal Output Screen Capture](/resources/Terminal_Output_Election Analysis.png)
 
 #### OVERALL ELECTION RESULTS
 
